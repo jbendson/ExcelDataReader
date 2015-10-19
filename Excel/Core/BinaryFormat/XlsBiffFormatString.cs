@@ -11,7 +11,7 @@ namespace ExcelDataReader.Portable.Core.BinaryFormat
 	{
 
         private Encoding m_UseEncoding =  Encoding.Unicode;
-		private XlsFormattedUnicodeString unicodeString;
+	    private XlsFormattedUnicodeString unicodeString;
 
 	    internal XlsBiffFormatString(byte[] bytes, uint offset, ExcelBinaryReader reader)
 			: base(bytes, offset, reader)
